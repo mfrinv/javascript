@@ -1,60 +1,60 @@
 module.exports = {
 	'rules': {
 		// http://eslint.org/docs/rules/comma-dangle
-		'comma-dangle': 0,
+		'comma-dangle': ['warn', 'always-multiline'],
 		// http://eslint.org/docs/rules/no-cond-assign
-		'no-cond-assign': 0,
+		'no-cond-assign': ['error', 'except-parens'],
 		// http://eslint.org/docs/rules/no-console
-		'no-console': 0,
+		'no-console': 'off',
 		// http://eslint.org/docs/rules/no-constant-condition
-		'no-constant-condition': 0,
+		'no-constant-condition': 'error',
 		// http://eslint.org/docs/rules/no-control-regex
-		'no-control-regex': 0,
+		'no-control-regex': 'warn',
 		// http://eslint.org/docs/rules/no-debugger
-		'no-debugger': 0,
+		'no-debugger': 'error',
 		// http://eslint.org/docs/rules/no-dupe-args
-		'no-dupe-args': 0,
+		'no-dupe-args': 'error',
 		// http://eslint.org/docs/rules/no-dupe-keys
-		'no-dupe-keys': 0,
+		'no-dupe-keys': 'error',
 		// http://eslint.org/docs/rules/no-duplicate-case
-		'no-duplicate-case': 0,
+		'no-duplicate-case': 'error',
 		// http://eslint.org/docs/rules/no-empty
-		'no-empty': 0,
+		'no-empty': 'warn',
 		// http://eslint.org/docs/rules/no-empty-character-class
-		'no-empty-character-class': 0,
+		'no-empty-character-class': 'warn',
 		// http://eslint.org/docs/rules/no-ex-assign
-		'no-ex-assign': 0,
+		'no-ex-assign': 'error',
 		// http://eslint.org/docs/rules/no-extra-boolean-cast
-		'no-extra-boolean-cast': 0,
+		'no-extra-boolean-cast': 'warn',
 		// http://eslint.org/docs/rules/no-extra-parens
-		'no-extra-parens': 0,
+		'no-extra-parens': ['warn', 'functions'],
 		// http://eslint.org/docs/rules/no-extra-semi
-		'no-extra-semi': 0,
+		'no-extra-semi': 'error',
 		// http://eslint.org/docs/rules/no-func-assign
-		'no-func-assign': 0,
+		'no-func-assign': 'error',
 		// http://eslint.org/docs/rules/no-inner-declarations
-		'no-inner-declarations': 0,
+		'no-inner-declarations': ['error', 'both'],
 		// http://eslint.org/docs/rules/no-invalid-regexp
-		'no-invalid-regexp': 0,
+		'no-invalid-regexp': 'error',
 		// http://eslint.org/docs/rules/no-irregular-whitespace
-		'no-irregular-whitespace': 0,
+		'no-irregular-whitespace': 'warn',
 		// http://eslint.org/docs/rules/no-negated-in-lhs
-		'no-negated-in-lhs': 0,
+		'no-negated-in-lhs': 'error',
 		// http://eslint.org/docs/rules/no-obj-calls
-		'no-obj-calls': 0,
+		'no-obj-calls': 'error',
 		// http://eslint.org/docs/rules/no-regex-spaces
-		'no-regex-spaces': 0,
+		'no-regex-spaces': 'warn',
 		// http://eslint.org/docs/rules/no-sparse-arrays
-		'no-sparse-arrays': 0,
+		'no-sparse-arrays': 'warn',
 		// http://eslint.org/docs/rules/no-unexpected-multiline
-		'no-unexpected-multiline': 0,
+		'no-unexpected-multiline': 'error',
 		// http://eslint.org/docs/rules/no-unreachable
-		'no-unreachable': 0,
+		'no-unreachable': 'warn',
 		// http://eslint.org/docs/rules/use-isnan
-		'use-isnan': 0,
+		'use-isnan': 'error',
 		// http://eslint.org/docs/rules/valid-jsdoc
-		'valid-jsdoc': 0,
+		'valid-jsdoc': 'warn',
 		// http://eslint.org/docs/rules/valid-typeof
-		'valid-typeof': 0,
+		'valid-typeof': 'error',
 	},
 };
