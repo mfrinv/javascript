@@ -1,43 +1,43 @@
 module.exports = {
 	'rules': {
 		// http://eslint.org/docs/rules/array-bracket-spacing
-		'array-bracket-spacing': 0,
+		'array-bracket-spacing': ['warn', 'never'],
 		// http://eslint.org/docs/rules/block-spacing
-		'block-spacing': 0,
+		'block-spacing': ['warn', 'always'],
 		// http://eslint.org/docs/rules/brace-style
-		'brace-style': 0,
+		'brace-style': ['warn', '1tbs', { 'allowSingleLine': true }],
 		// http://eslint.org/docs/rules/camelcase
-		'camelcase': 0,
+		'camelcase': 'warn',
 		// http://eslint.org/docs/rules/comma-spacing
-		'comma-spacing': 0,
+		'comma-spacing': 'warn',
 		// http://eslint.org/docs/rules/comma-style
-		'comma-style': 0,
+		'comma-style': ['warn', 'last'],
 		// http://eslint.org/docs/rules/computed-property-spacing
-		'computed-property-spacing': 0,
+		'computed-property-spacing': ['warn', 'never'],
 		// http://eslint.org/docs/rules/consistent-this
-		'consistent-this': 0,
+		'consistent-this': ['warn', 'self'],
 		// http://eslint.org/docs/rules/eol-last
-		'eol-last': 0,
+		'eol-last': 'warn',
 		// http://eslint.org/docs/rules/func-names
-		'func-names': 0,
+		'func-names': 'error',
 		// http://eslint.org/docs/rules/func-style
-		'func-style': 0,
+		'func-style': 'off',
 		// http://eslint.org/docs/rules/id-blacklist
-		'id-blacklist': 0,
+		'id-blacklist': 'off',
 		// http://eslint.org/docs/rules/id-length
-		'id-length': 0,
+		'id-length': 'off',
 		// http://eslint.org/docs/rules/id-match
-		'id-match': 0,
+		'id-match': 'off',
 		// http://eslint.org/docs/rules/indent
-		'indent': 0,
+		'indent': ['warn', 'tab'],
 		// http://eslint.org/docs/rules/jsx-quotes
-		'jsx-quotes': 0,
+		'jsx-quotes': 'off',
 		// http://eslint.org/docs/rules/key-spacing
-		'key-spacing': 0,
+		'key-spacing': 'warn',
 		// http://eslint.org/docs/rules/keyword-spacing
-		'keyword-spacing': 0,
+		'keyword-spacing': 'warn',
 		// http://eslint.org/docs/rules/linebreak-style
-		'linebreak-style': 0,
+		'linebreak-style': 'warn',
 		// http://eslint.org/docs/rules/lines-around-comment
 		'lines-around-comment': 0,
 		// http://eslint.org/docs/rules/max-depth
