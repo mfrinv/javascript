@@ -29,7 +29,7 @@ module.exports = {
     // http://eslint.org/docs/rules/id-match
     'id-match': 'off',
     // http://eslint.org/docs/rules/indent
-    'indent': ['warn', 'tab'],
+    'indent': ['warn', 2],
     // http://eslint.org/docs/rules/jsx-quotes
     'jsx-quotes': 'off',
     // http://eslint.org/docs/rules/key-spacing
