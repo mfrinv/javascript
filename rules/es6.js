@@ -7,52 +7,52 @@ module.exports = {
   },
   'rules': {
     // http://eslint.org/docs/rules/arrow-body-style
-    'arrow-body-style': 0,
+    'arrow-body-style': ['warn', 'as-needed'],
     // http://eslint.org/docs/rules/arrow-parens
-    'arrow-parens': 0,
+    'arrow-parens': ['warn', 'as-needed'],
     // http://eslint.org/docs/rules/arrow-spacing
-    'arrow-spacing': 0,
+    'arrow-spacing': ['warn', {before: true, after: true}],
     // http://eslint.org/docs/rules/constructor-super
-    'constructor-super': 0,
+    'constructor-super': 'error',
     // http://eslint.org/docs/rules/generator-star-spacing
-    'generator-star-spacing': 0,
+    'generator-star-spacing': ['warn', {before: true, after: false}],
     // http://eslint.org/docs/rules/no-class-assign
-    'no-class-assign': 0,
+    'no-class-assign': 'error',
     // http://eslint.org/docs/rules/no-confusing-arrow
-    'no-confusing-arrow': 0,
+    'no-confusing-arrow': 'warn',
     // http://eslint.org/docs/rules/no-const-assign
-    'no-const-assign': 0,
+    'no-const-assign': 'error',
     // http://eslint.org/docs/rules/no-dupe-class-members
-    'no-dupe-class-members': 0,
+    'no-dupe-class-members': 'error',
     // http://eslint.org/docs/rules/no-new-symbol
-    'no-new-symbol': 0,
+    'no-new-symbol': 'error',
     // http://eslint.org/docs/rules/no-restricted-imports
-    'no-restricted-imports': 0,
+    'no-restricted-imports': 'off',
     // http://eslint.org/docs/rules/no-this-before-super
-    'no-this-before-super': 0,
+    'no-this-before-super': 'error',
     // http://eslint.org/docs/rules/no-useless-constructor
-    'no-useless-constructor': 0,
+    'no-useless-constructor': 'warn',
     // http://eslint.org/docs/rules/no-var
-    'no-var': 0,
+    'no-var': 'warn',
     // http://eslint.org/docs/rules/object-shorthand
-    'object-shorthand': 0,
+    'object-shorthand': 'warn',
     // http://eslint.org/docs/rules/prefer-arrow-callback
-    'prefer-arrow-callback': 0,
+    'prefer-arrow-callback': 'warn',
     // http://eslint.org/docs/rules/prefer-const
-    'prefer-const': 0,
+    'prefer-const': 'warn',
     // http://eslint.org/docs/rules/prefer-reflect
-    'prefer-reflect': 0,
+    'prefer-reflect': 'off',
     // http://eslint.org/docs/rules/prefer-rest-params
-    'prefer-rest-params': 0,
+    'prefer-rest-params': 'warn',
     // http://eslint.org/docs/rules/prefer-spread
-    'prefer-spread': 0,
+    'prefer-spread': 'warn',
     // http://eslint.org/docs/rules/prefer-template
-    'prefer-template': 0,
+    'prefer-template': 'warn',
     // http://eslint.org/docs/rules/require-yield
-    'require-yield': 0,
+    'require-yield': 'warn',
     // http://eslint.org/docs/rules/template-curly-spacing
-    'template-curly-spacing': 0,
+    'template-curly-spacing': ['warn', 'never'],
     // http://eslint.org/docs/rules/yield-star-spacing
-    'yield-star-spacing': 0,
+    'yield-star-spacing': ['warn', {before: true, after: false}],
   },
 }
