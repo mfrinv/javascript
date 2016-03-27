@@ -117,7 +117,7 @@ module.exports = {
     // http://eslint.org/docs/rules/semi
     'semi': ['error', 'always'],
     // http://eslint.org/docs/rules/semi-spacing
-    'semi-spacing': ['warn', {before: true, after: false}],
+    'semi-spacing': ['warn', {before: false, after: true}],
     // http://eslint.org/docs/rules/sort-imports
     'sort-imports': 'off',
     // http://eslint.org/docs/rules/sort-vars
