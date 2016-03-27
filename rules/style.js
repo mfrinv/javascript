@@ -59,7 +59,7 @@ module.exports = {
     // http://eslint.org/docs/rules/newline-before-return
     'newline-before-return': 'warn',
     // http://eslint.org/docs/rules/newline-per-chained-call
-    'newline-per-chained-call': ['warn', { 'ignoreChaintWithDepth': 4 }],
+    'newline-per-chained-call': ['warn', { 'ignoreChainWithDepth': 4 }],
     // http://eslint.org/docs/rules/no-array-constructor
     'no-array-constructor': 'error',
     // http://eslint.org/docs/rules/no-bitwise
