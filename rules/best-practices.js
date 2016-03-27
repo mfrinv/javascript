@@ -67,7 +67,7 @@ module.exports = {
     // http://eslint.org/docs/rules/no-loop-func
     'no-loop-func': 'error',
     // http://eslint.org/docs/rules/no-magic-numbers
-    'no-magic-numbers': ['warn', {'ignoreArrayIndexes': true}],
+    'no-magic-numbers': 'off',
     // http://eslint.org/docs/rules/no-multi-spaces
     'no-multi-spaces': ['warn', { exceptions: { 'Property': false } }],
     // http://eslint.org/docs/rules/no-multi-str
