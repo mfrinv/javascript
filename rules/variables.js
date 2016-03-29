@@ -23,6 +23,6 @@ module.exports = {
     // http://eslint.org/docs/rules/no-unused-vars
     'no-unused-vars': 'warn',
     // http://eslint.org/docs/rules/no-use-before-define
-    'no-use-before-define': 'warn',
+    'no-use-before-define': ['warn', 'nofunc'],
   },
 }
