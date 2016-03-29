@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mfrinv",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An eslint config for the Mfrinv standards",
   "main": "index.js",
   "scripts": {
