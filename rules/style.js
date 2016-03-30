@@ -35,7 +35,11 @@ module.exports = {
     // http://eslint.org/docs/rules/key-spacing
     'key-spacing': 'warn',
     // http://eslint.org/docs/rules/keyword-spacing
-    'keyword-spacing': 'warn',
+    'keyword-spacing': ['warn', {'overrides': {
+      'if': {'after': false},
+      'for': {'after': false},
+      'while': {'after': false},
+    }}],
     // http://eslint.org/docs/rules/linebreak-style
     'linebreak-style': 'warn',
     // http://eslint.org/docs/rules/lines-around-comment
